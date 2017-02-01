@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "AGreg";
+    src: url('webfont.woff') format('woff');
+
+}
+
 body {
     margin: 60px auto;
     width: 70%;
