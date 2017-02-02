@@ -5,13 +5,22 @@
 @font-face {
     font-family: 'AGreg';
     src: url('type/AGreg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+	font-family: 'AGbold';
+	src: url('type/AGbold.woff') format('woff');
+	font-weight: bold;
+	font-style: none;
 }
 
 body {
     font-family: 'AGreg', sans-serif;
     margin: 60px auto;
     width: 70%;
+    font-weight: bold;
 }
 nav ul, footer ul {
     padding: 0px;
