@@ -1,23 +1,23 @@
 * {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 @font-face {
-    font-family: 'AGreg';
+    font-family: 'AG';
     src: url('type/AGreg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-	font-family: 'AGbold';
+	font-family: 'AG';
 	src: url('type/AGbold.woff') format('woff');
 	font-weight: bold;
 	font-style: none;
 }
 
 body {
-    font-family: 'AGreg', sans-serif;
+    font-family: 'AG', sans-serif;
     margin: 60px auto;
     width: 70%;
     font-weight: normal;
@@ -25,7 +25,7 @@ body {
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
-    font-family:'AGreg', sans-serif;
+    font-family:'AG', sans-serif;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -40,7 +40,7 @@ a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'AG', sans-serif;
 }
 p {
     font-size: 1em;
