@@ -14,9 +14,9 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'AGreg', 'Sans-Serif';
     padding: 0px;
     list-style: none;
+    font-family:'AGreg', sans-serif;
 }
 nav ul li, footer ul li {
     display: inline;
