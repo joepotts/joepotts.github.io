@@ -1,10 +1,11 @@
 @font-face {
-    font-family: "AGreg";
-    src: url('webfont.woff') format('woff');
+    font-family: 'AGreg';
+    src: url('AGreg.woff') format('woff');
 
 }
 
 body {
+    font-family: 'AGreg', sans-serif;
     margin: 60px auto;
     width: 70%;
 }
