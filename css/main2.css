@@ -1,0 +1,94 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @joepotts
+
+0
+0
+
+    0
+
+joepotts/joepotts.github.io
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Pulse
+Graphs
+Settings
+joepotts.github.io/css/main.css
+3fec08b on Feb 1
+@joepotts joepotts Update main.css
+63 lines (57 sloc) 967 Bytes
+* {
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'AG';
+    src: url('type/AGreg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'AG';
+	src: url('type/AGbold.woff') format('woff');
+	font-weight: bold;
+	font-style: none;
+}
+
+body {
+    font-family: 'AG', sans-serif;
+    margin: 60px auto;
+    width: 70%;
+    font-weight: normal;
+}
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-family:'AG', sans-serif;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: /* #999; */ #333;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 2em;
+    font-family:'AG', sans-serif;
+}
+p {
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 1em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+    Contact GitHub API Training Shop Blog About 
+
+    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
+
