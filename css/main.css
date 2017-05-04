@@ -1,6 +1,4 @@
-* {
-    font-size: 14px;
-}
+
 
 @font-face {
     font-family: 'AG';
@@ -16,8 +14,12 @@
 	font-style: none;
 }
 
-body {
+* {
+    font-size: 14px;
     font-family: 'AG', sans-serif;
+}
+
+body {
     margin: 60px auto;
     width: 70%;
     font-weight: normal;
@@ -25,8 +27,13 @@ body {
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
-    font-family:'AG', sans-serif;
 }
+
+ul.list {
+	padding: 0px;
+	list-style: none;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
