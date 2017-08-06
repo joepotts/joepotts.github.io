@@ -12,6 +12,13 @@ body {
   	background: -o-linear-gradient(bottom right, green, limegreen); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(bottom right, green, limegreen); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(to bottom right, green, limegreen); /* Standard syntax */
+  	
+  	/* background: red; /* For browsers that do not support gradients */
+  	/* background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+  	/* background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+  	/* background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+  	/* background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+	
 	
 	font-family: 'Karla', sans-serif;
 }
@@ -40,18 +47,18 @@ ul {
 
 .standard {
 	font-size: 3vw;
+	padding-left: 15vw;
+	padding-right: 15vw;
 }
 
 .flowerpower {
 	font-size: 20vw;
 	color: white;
-	font-weight: 700;
 }
 
 .description {
 	font-size: 5vw;
-	color: MistyRose;
-	padding: 0 20vw 5vh 22vw;
+	padding: 5vh 20vw 5vh 22vw;
 	
 }
 
@@ -64,7 +71,9 @@ ul {
 	padding-bottom: 10px;
 }
 
-
+.bold {
+	font-weight: 700;
+}
 
 /*colors*/
 
@@ -74,4 +83,12 @@ ul {
 
 .orange {
 	color: orange;
+}
+
+.white {
+	color: white;
+}
+
+.mistyrose {
+	color: mistyrose;
 }
