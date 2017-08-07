@@ -33,8 +33,8 @@ ul {
 /*links*/
 a:link { color: black }
 a:visited { color: black }
-a:hover { color: white }
-a:active { color: mistyrose }
+a:hover { color: mistyrose }
+a:active { color: white }
 
 /*container*/
 
