@@ -1,0 +1,796 @@
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=- STYLES BY IAN BESLER =-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+/* =-=-=-=-=-=-=-=-=-=-
+=-=-=- CSS RESET -=-=-=
+-=-=-=-=-=-=-=-=-=-= */
+	* {
+		margin: 0;
+		padding: 0;
+		font-size: 1em;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: black;
+		text-decoration: none;
+		list-style: none;
+		list-style-type: none;
+	}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=
+=-=-=- TEXT CLASSES =-=-=-
+-=-=-=-=-=-=-=-=-=-=-=- */
+
+	.done {
+		text-decoration: line-through;
+	}
+
+	.underline {
+		text-decoration: underline;
+	}
+
+@media screen and (min-width: 1024px) {
+
+	body {
+		background-color: none;
+	}
+
+		body div#wrapper {
+			width: 1024px;
+			height: 768px;
+			margin: 0px auto 0px auto;
+			background-color: none;
+		}
+
+	/* SEMANTIC TAGS */
+
+		/* HEADER */
+
+			header {
+				width: 1024px;
+				height: 155px;
+				position: fixed;
+				background-color: rgba(255,255,255,0.9);
+			}
+
+				header h1 {
+					font-size: 4em;
+					padding-top: 7%;
+				}
+
+					header h1 a:hover {
+					background-color: yellow;
+				}
+
+		/* NAV */
+
+			nav {
+				width: 1024px;
+				height: 70px;
+				margin-top: 155px;
+				text-align: center;
+				background-color: rgba(255,255,255,0.9);
+				position: fixed;
+			}
+
+				nav ul {
+					width: 100%;
+					height: 20px;
+					border-top: solid black 2px;
+					border-bottom: solid black 2px;
+					padding-top: 15px;
+					padding-bottom: 20px;
+					background-color: none;
+					text-indent: 0px;
+				}
+
+					nav ul li {
+						font-size: 136%;
+						font-weight: bold;
+						padding-left: 0.44em;
+						padding-right: 0.44em;
+						display: inline;
+						text-transform: uppercase;
+						background-color: none;
+					}
+						nav ul li.current {
+							color: white;
+							border-top: solid black 3.5px;
+							border-bottom: solid black 2.5px;
+							background-color: black;
+						}
+
+							nav ul li a:link {
+								color: black;
+								background-color: none;
+							}
+
+							nav ul li a:visited {
+								color: black;
+								background-color: none;
+							}
+
+							nav ul li a:hover {
+								background-color: yellow;
+								border-top: solid yellow 3.5px;
+								border-bottom: solid yellow 2.5px;
+							}
+
+		/* ARTICLE */
+
+		sup {
+			vertical-align: super;
+    		font-size: 55%;
+		}
+
+		article {
+			width: 95%;
+			padding-left: 25px;
+			padding-top: 200px;
+			background-color: none;
+		}
+
+			article h2 {
+				margin-top: 50px;
+				font-size: 1.3em;
+			}
+
+				article h2.assignment {
+					font-size: 2em;
+					margin-top: 50px;
+					border-top: solid black 2px;
+					padding-top: 10px;
+				}
+
+				article h2.lectures {
+					margin-top: 50px;
+					border-top: solid black 2px;
+					padding-top: 10px;
+				}
+
+				article h2.syllabus {
+					margin-top: 50px;
+					border-top: solid black 2px;
+					padding-top: 10px;
+				}
+
+				article h2.resources {
+					margin-top: 50px;
+					border-top: solid black 2px;
+					padding-top: 10px;
+				}
+
+				article h2.warning {
+					width: 86%;
+					margin: 50px 7% 0px 7%;
+					border-top: solid 4px red;
+					border-bottom: solid 4px red; 
+					background-color: red;
+					text-transform: uppercase;
+					text-align: center;
+				}
+
+					article h3.assignment {
+						font-size: 1.5em;
+					}
+
+					article h3.instructor a:link {
+						color: white;
+						background-color: blue;
+					}
+
+						article h3.instructor a:visited {
+							color: white;
+							background-color: blue;
+						}
+
+						article h3.instructor a:hover {
+							color: black;
+							background-color: yellow;
+						}
+
+					article h3.week {
+						width: 100%;
+						margin-top: 50px;
+						background-color: none;
+						border-top: solid black 2px;
+						padding-top: 10px;
+						display: inline-block;
+					}
+
+					article h3.duedate {
+						background-color: red;
+						display: inline-block;
+					}
+
+					article section.resources h3.resources {
+						padding-top: 2em;
+						text-transform: none;
+						font-weight: bold;
+					}
+
+						article h4.date {
+							padding-top: 1em;
+							padding-left: 2em;
+						}
+
+						article h4.demo {
+							padding-top: 1em;
+							padding-left: 2em;
+							background-color: none;
+						}
+
+							article h4.demo a:link {
+								color: white;
+								background-color: blue;
+							}
+
+								article h4.demo a:visited {
+									color: white;
+									background-color: blue;
+								}
+
+								article h4.demo a:hover {
+									color: black;
+									background-color: yellow;
+								}
+
+							article h4.email {
+								padding-top: 0.5em;
+							}
+
+							article h4.email a:link {
+								color: white;
+								background-color: blue;
+							}
+
+								article h4.email a:visited {
+									color: white;
+									background-color: blue;
+								}
+
+								article h4.email a:hover {
+									color: black;
+									background-color: yellow;
+								}
+
+							article h5 {
+								margin-top: 1em;
+							}
+
+							article h5.lectures {
+								width: 35%;
+								margin-top: 1em;
+								margin-left: 4em;
+							}
+
+								article h5.lectures a:link {
+									color: white;
+									background-color: blue;
+								}
+
+								article h5.lectures a:visited {
+									color: white;
+									background-color: blue;
+								}
+
+								article h5.lectures a:hover {
+									color: black;
+									background-color: yellow;
+								}
+
+			p.assignments {
+				width: 35%;
+				padding-top: 1em;
+				background-color: none;
+			}
+
+				ul.rubric {
+					width: 35%;
+					background-color: none;
+				}
+
+			article p.syllabus {
+				padding-top: 1em;
+			}
+
+				article section p.syllabus a:link {
+					color: blue;
+					text-decoration: underline;
+				}
+
+				article section p.syllabus a:visited {
+					color: blue;
+					text-decoration: underline;
+				}
+
+			article section.resources {
+				width: 28%;
+				margin-right: 5%;
+				margin-bottom: 10em;
+				float: left;
+				background-color: none;
+			}
+
+				article section.resources ul {
+					margin-top: 1em;
+					padding-left: 0;
+				}
+
+					a:link cite {
+						color: white;
+					}
+
+						a:visited cite {
+							color: gray;
+						}
+
+						a:hover cite {
+							color: black;
+						}
+
+					ul li a:link strong {
+						color: white;
+					}
+
+						ul li a:visited strong {
+							color: gray;
+						}
+
+						ul li a:hover strong {
+							color: black;
+						}
+
+			article#students {
+				padding-top: 0;
+			}
+
+			article section.students {
+				width: 50%;
+				float: left;
+				text-align: center;
+			}
+
+			article section.students ol {
+				margin-top: 3em;
+			}
+
+			article section.students ol li {
+				margin-top: 1.5em;
+				font-size: 140%;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+
+				article section.students ol li a:link {
+					color: black;
+				}
+
+					article section.students ol li a:visited {
+						color: black;
+					}
+
+					article section.students ol li a:hover {
+						background-color: yellow;
+						border-top: solid yellow 3.5px;
+						border-bottom: solid yellow 2.5px;
+					}
+
+				article section.students ol li.current {
+					color: white;
+					border-top: solid black 3.5px;
+					border-bottom: solid black 2.5px;
+					background-color: black;
+				}
+
+			article ol li ol li {
+				padding-left: 25px;
+				list-style-type: decimal;
+				list-style-position: inside;
+			}
+
+			article ol li ul li {
+				padding-left: 0em;
+				list-style-type: disc;
+				list-style-position: inside;
+			}
+
+			article section ul {
+				font-size: 0.8em;
+				color: black;
+				padding-left: 0em;
+				list-style-type: disc;
+				list-style-position: inside;
+			}
+
+				article section#assignments p {
+					padding-left: 1em;
+				}
+
+				article section#assignments a:link {
+					color: white;
+					background-color: blue;
+				}
+
+					article section#assignments a:visited {
+						color: white;
+						background-color: blue;
+					}
+
+					article section#assignments a:hover {
+						color: black;
+						background-color: yellow;
+					}
+
+				article section#assignments ul {
+					width: 22em;
+					font-size: 0.9em;
+					margin-top: 1em;
+					padding-left: 0;
+					margin-left: 0;
+					list-style-type: disc;
+					list-style-position: inside;
+				}
+
+		/* SECTION */
+
+			article.weekdays {
+				width: 94%;
+				padding-top: 2%;
+				padding-left: 2%;
+			}
+
+				article.weekdays section.tuesday {
+					padding: 0 5% 0 5%;
+					width: 42%;
+					float: left;
+				}
+
+				article.weekdays section.thursday {
+					width: 48%;
+					float: left;
+				}
+
+					article.weekdays a:link sup {
+						color: white;
+					}
+
+					article.weekdays a:hover sup {
+						color: black;
+					}
+
+				section.current {
+					animation-name: current;
+				    animation-duration: 1.5s;
+				    animation-iteration-count: infinite;
+				    -webkit-animation-name: current; /* Chrome, Opera, Safari */
+    				-webkit-animation-duration: 1.5s; /* Chrome, Opera, Safari */
+				    -webkit-animation-iteration-count: infinite; /* Chrome, Opera, Safari */
+				}
+
+					section h2.current {
+					animation-name: current;
+				    animation-duration: 1.5s;
+				    animation-iteration-count: infinite;
+				    -webkit-animation-name: current; /* Chrome, Opera, Safari */
+    				-webkit-animation-duration: 1.5s; /* Chrome, Opera, Safari */
+				    -webkit-animation-iteration-count: infinite; /* Chrome, Opera, Safari */
+				}
+
+				section h3.current {
+					animation-name: current;
+				    animation-duration: 1.5s;
+				    animation-iteration-count: infinite;
+				    -webkit-animation-name: current; /* Chrome, Opera, Safari */
+    				-webkit-animation-duration: 1.5s; /* Chrome, Opera, Safari */
+				    -webkit-animation-iteration-count: infinite; /* Chrome, Opera, Safari */
+				}
+
+					/* Standard syntax */
+					@keyframes current {
+					    0% {background-color: none;}
+					    1% {background-color: yellow;}
+					    100% {background-color: none;}
+					}
+
+					/* Chrome, Opera, Safari */
+					@-webkit-keyframes current {
+					    0% {background-color: none;}
+					    1% {background-color: yellow;}
+					    100% {background-color: none;}
+					}
+
+				article h4 {
+					padding-top: 0;
+				}
+
+				section h5 {
+					margin-left: 2em;
+				}
+
+				.noclass {
+					background-color: lime;
+				}
+
+					section ul {
+						margin: 0.5em 0 0 4em;
+					}
+
+					section h5 {
+						font-size: 0.8em;
+						margin: 1em 0 0 3em;
+					}
+
+					section ul li {
+						list-style-type: disc;
+						list-style-position: outside;
+					}
+
+					section ul li a:link {
+						color: white;
+						background-color: blue;
+					}
+
+						section ul li a:visited {
+							color: gray;
+							background-color: blue;
+						}
+
+						section ul li a:hover {
+							color: black;
+							background-color: yellow;
+						}
+
+					section ul li span.assigndate {
+						font-weight: bold;
+						background-color: lime;
+					}
+
+					section ul li span.duedate {
+						font-weight: bold;
+						background-color: red;
+					}
+
+}
+
+
+@media screen and (min-width: 1px) and (max-width: 1023px) {
+
+	body {
+		background-color: none;
+		}
+
+		#wrapper {
+			width: 100%;
+			height: 100%;
+			margin: 0 auto auto 0;
+			float: left;
+			background-color: none;
+		}
+
+/* SEMANTIC TAGS */
+
+		/* HEADER */
+
+		header {
+			width: 100%;
+			height: 10%;
+			position: relative;
+			background-color: none;
+		}
+
+			header h1 {
+				font-size: 160%;
+				padding: 20px;
+			}
+
+		/* NAV */
+
+			nav {
+				width: 100%;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				position: relative;
+				text-align: left;
+				float: left;
+				border-top: solid black 2px;
+				border-bottom: solid black 2px;
+				background-color: none;
+			}
+
+				nav ul {
+					position: relative;
+					background-color: none;
+				}
+
+				nav ul li {
+					font-size: 200%;
+					font-weight: bold;
+					text-transform: uppercase;
+					background-color: none;
+					display: block;
+					padding: 5px 0 0 20px;
+				}
+
+					nav ul li.current {
+							color: white;
+							border-top: solid black 0.5px;
+							border-bottom: solid black 1px;
+							background-color: black;
+						}
+
+		/* ARTICLE */
+
+		article#syllabus {
+			width: 95%;
+			float: left;
+			padding: 0 0 0 20px;
+			background-color: none;
+		}
+
+		sup {
+			vertical-align: super;
+			font-size: 55%;
+		}
+
+			article section.resources {
+				width: 90%;
+			}
+
+			article section.resources h2.resources {
+				font-size: 2em;
+				margin-top: 1em;
+				border-top: 0.1em solid black;
+			}
+
+			article h2.warning {
+					width: 86%;
+					margin: 50px 7% 0px 7%;
+					border-top: solid 4px red;
+					border-bottom: solid 4px red; 
+					background-color: red;
+					text-transform: uppercase;
+					text-align: center;
+				}
+
+			article section p.syllabus {
+				margin-top: 1em;
+			}
+
+				article section p.syllabus a:link {
+					color: blue;
+					text-decoration: underline;
+				}
+
+					article section p.syllabus a:visited {
+						color: blue;
+						text-decoration: underline;
+					}
+
+			article section ul li {
+				list-style-type: disc;
+				padding-left: 1em;
+				list-style-position: inside;
+			}
+
+			article h3.current {
+				background-color: yellow;
+			}
+
+			article h3.duedate {
+				display: inline-block;
+				background-color: red;
+			}
+
+			article section.resources h3.resources {
+				margin-top: 2em;
+			}
+
+			article section.syllabus {
+				border-top: solid black 2px;
+				padding-top: 0.5em;
+				margin-top: 2em;
+				background-color: none;
+			}
+
+				article section.syllabus article.weekdays {
+					margin-bottom: 0em;
+					background-color: none;
+				}
+
+			article p.assignments {
+				padding-top: 1em;
+				background-color: none;
+			}
+
+			article section.students ol li {
+				margin-top: 0.5em;
+				font-size: 140%;
+			}
+
+		/* SECTION */
+
+		section {
+			width: 100%;
+			margin: 40px 0 0 0;
+			background-color: none;
+		}
+
+			section a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+				section a:visited {
+					color: blue;
+					text-decoration: underline;
+				}
+
+		article section.resources ul {
+					margin-top: 1em;
+					padding-left: 0;
+				}
+
+			article .current {
+					animation-name: current;
+				    animation-duration: 1.5s;
+				    animation-iteration-count: infinite;
+				    -webkit-animation-name: current; /* Chrome, Opera, Safari */
+    				-webkit-animation-duration: 1.5s; /* Chrome, Opera, Safari */
+				    -webkit-animation-iteration-count: infinite; /* Chrome, Opera, Safari */
+				}
+
+				/* Standard syntax */
+				@keyframes current {
+				    0% {background-color: none;}
+				    1% {background-color: yellow;}
+				    100% {background-color: none;}
+				}
+
+				/* Chrome, Opera, Safari */
+				@-webkit-keyframes current {
+				    0% {background-color: none;}
+				    1% {background-color: yellow;}
+				    100% {background-color: none;}
+				}
+
+}
+
+/* =-=-=-=-=-=-=-=-=-=-
+=-=- COLOR CLASSES -=-=
+-=-=-=-=-=-=-=-=-=-= */
+
+	.red {
+		background-color: red;
+	}
+	
+	.orange {
+		background-color: orange;
+	}
+	
+	.yellow {
+		background-color: yellow;
+	}
+	
+	.green {
+		background-color: limegreen;
+	}
+
+	.green-text {
+		color: limegreen;
+	}
+	
+	.blue {
+		background-color: blue;
+	}
+
+	.blue-text {
+		color: blue;
+	}
+	
+	.purple {
+		background-color: purple;
+	}
+
+	.black {
+		background-color: black;
+	}

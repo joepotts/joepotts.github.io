@@ -1,0 +1,118 @@
+/* =-=-=-=-=-=-=-=-=-=-
+=-=-=- CSS RESET -=-=-=
+-=-=-=-=-=-=-=-=-=-= */
+	* {
+		margin: 0;
+		padding: 0;
+		font-size: 1em;
+		/*line-height: 18px;*/
+		font-family: 'Space Mono', monospace;
+		color: black;
+		text-decoration: none;
+		/*list-style: none;
+		list-style-type: none;*/
+	}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=
+=-=-=- TEXT CLASSES =-=-=-
+-=-=-=-=-=-=-=-=-=-=-=- */
+
+	a:link {color: #19934c;}
+	a:visited {color: #19934c;}
+	a:hover {text-decoration: underline; color: dimgray;}
+	a:active {color: pink;}
+	
+	#main {
+	background-color: none;
+	height: 100%;
+	max-width: 90%;
+	margin: 25px auto 25px 40px;
+	/*border: 5px solid cyan;*/
+	}
+	
+	#content {
+	display: block;
+	}
+	
+	
+	
+	
+	/*NAV*/
+	
+	nav {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	text-align: left;
+	}
+	
+		nav ul {
+		width: 80%;
+		border-top: solid black 1px;
+		border-bottom: solid black 1px;
+		padding-top: 15px;
+		padding-bottom: 20px;
+		background-color: none;
+		text-indent: 0px;
+		}
+		
+			nav ul li {
+			font-size: .8em;
+			padding-left: 0.44em;
+			padding-right: 0.44em;
+			display: inline;
+			background-color: none;
+			}
+
+
+	
+	
+	h1, h2, h3, h4, ul, ol, p 
+	{margin-bottom: 10px;}
+
+	article {
+	max-width: 800px;
+	
+	}
+	
+	
+	.intro {
+	font-size: 2em;	
+	}
+	
+	.classname {
+	font-size: 1em;
+	}
+	
+	.info {
+	font-size: .8em;
+	color: gray;
+	}
+	
+	.mainnav {
+	font-size: 4em;
+	list-style-type: none;
+	
+	.syllabus {
+	font-family: "arial", sans-serif;
+	font-size: 1em;
+	width: 700px;
+	}
+	
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
