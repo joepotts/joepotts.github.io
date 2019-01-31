@@ -39,6 +39,9 @@ nav ul, footer ul {
     list-style-type: none;
 }
 
+.teal {
+	color: #c7d9e0;
+
 .list {
 	padding: 0px;
 	list-style-type: none;
