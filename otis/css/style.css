@@ -1,0 +1,23 @@
+section {
+	margin-top: 20px;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	max-width: 540px;
+  /*by using auto margins our column of content is centeredon the 
+  page*/
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.3;
+}
+
+footer {
+	margin-top: 50px;
+	font-size: 10px;
+}
+
+
+section ul {
+	margin-left: 40px;
+}
