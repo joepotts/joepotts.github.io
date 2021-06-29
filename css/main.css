@@ -2,29 +2,31 @@
 
 @font-face {
     font-family: 'AG';
-    src: url('type/AGreg.woff') format('woff');
+    src: url('type/AGreg.woff.html') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
 	font-family: 'AG';
-	src: url('type/AGbold.woff') format('woff');
+	src: url('type/AGbold.woff.html') format('woff');
 	font-weight: bold;
 	font-style: none;
 }
 
 @font-face {
 	font-family: 'HF';
-	src: url('type/HF.woff') format('woff');
+	src: url('type/HF.woff.html') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 * {
-    font-size: 14px;
-    line-height: 18px;	
+    font-size: 20px;
+    line-height: 30px;	
     font-family: 'HF', sans-serif; 
+    background-color: lavenderblush;
+    color: black;
 	 /* 'UnifrakturMaguntia', cursive; */
 	
 }
